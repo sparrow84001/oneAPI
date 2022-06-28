@@ -1,0 +1,8 @@
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/array-transform.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/debug-session.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/run.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/run-cpu.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/run-gpu.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/run-fpga.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/edit_cache.dir
+/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/rebuild_cache.dir

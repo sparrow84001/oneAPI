@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "array-transform",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "array-transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array-transform-Debug-7b74d31f82d8e05ac6ef.json",
+					"name" : "array-transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debug-session::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug-session-Debug-bb9bd337684d2ed4056a.json",
+					"name" : "debug-session",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-Debug-95d828686adaa935acc8.json",
+					"name" : "run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run-cpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-cpu-Debug-3c60b2e7b0d9615ef346.json",
+					"name" : "run-cpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run-fpga::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-fpga-Debug-e412b4af8cadc2b6fe5e.json",
+					"name" : "run-fpga",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run-gpu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run-gpu-Debug-42abe05565ae25e0b560.json",
+					"name" : "run-gpu",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/n3/oneAPI_sample/array-transform/build",
+		"source" : "/home/n3/oneAPI_sample/array-transform"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

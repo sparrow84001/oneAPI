@@ -1,0 +1,4 @@
+/home/n3/oneAPI_sample/matrix_multiply_vtune/CMakeFiles/matrix.dpcpp.dir
+/home/n3/oneAPI_sample/matrix_multiply_vtune/CMakeFiles/run.dir
+/home/n3/oneAPI_sample/matrix_multiply_vtune/CMakeFiles/edit_cache.dir
+/home/n3/oneAPI_sample/matrix_multiply_vtune/CMakeFiles/rebuild_cache.dir

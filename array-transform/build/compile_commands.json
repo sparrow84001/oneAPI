@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/n3/oneAPI_sample/array-transform/build",
+  "command": "/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp    -O0 -o CMakeFiles/array-transform.dir/src/array-transform.cpp.o -c /home/n3/oneAPI_sample/array-transform/src/array-transform.cpp",
+  "file": "/home/n3/oneAPI_sample/array-transform/src/array-transform.cpp"
+}
+]

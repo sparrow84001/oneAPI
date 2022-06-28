@@ -1,0 +1,513 @@
+The system is: Linux - 5.10.102.1-microsoft-standard-WSL2 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is IntelLLVM, found in "/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a17c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a17c.dir/build.make CMakeFiles/cmTC_0a17c.dir/build
+gmake[1]: Entering directory '/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o
+/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp   -v -MD -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Intel(R) oneAPI DPC++/C++ Compiler 2022.1.0 (2022.1.0.20220316)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda-11.2, version 11.2
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple x86_64-unknown-linux-gnu -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -include /tmp/CMakeCXXCompilerABI-header-920b64.h -dependency-filter /tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-enable-int-header-diags -fsycl-is-host -Eonly -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=none -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -mllvm -enable-lv -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"
+ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu"
+ignoring duplicate directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel/oneapi/vpl/2022.1.0/include
+ /opt/intel/oneapi/tbb/2021.6.0/env/../include
+ /opt/intel/oneapi/mpi/2021.6.0//include
+ /opt/intel/oneapi/mkl/2022.1.0/include
+ /opt/intel/oneapi/ippcp/2021.6.0/include
+ /opt/intel/oneapi/ipp/2021.6.0/include
+ /opt/intel/oneapi/dpl/2021.7.0/linux/include
+ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include
+ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include
+ /opt/intel/oneapi/dev-utilities/2021.6.0/include
+ /opt/intel/oneapi/dal/2021.6.0/include
+ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple spir64-unknown-unknown -aux-triple x86_64-unknown-linux-gnu -fsycl-is-device -fdeclare-spirv-builtins -mllvm -sycl-opt -fenable-sycl-dae -Wno-sycl-strict -fsycl-int-header=/tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-int-footer=/tmp/CMakeCXXCompilerABI-footer-9b2043.h -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -Wspir-compat -emit-llvm-bc -emit-llvm-uselists -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=all -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -fno-verbose-asm -mconstructor-aliases -aux-target-cpu x86-64 -debugger-tuning=gdb -v -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -o /tmp/CMakeCXXCompilerABI-e71608.bc -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"
+ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu"
+ignoring duplicate directory "/usr/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"
+ignoring duplicate directory "/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/intel/oneapi/vpl/2022.1.0/include
+ /opt/intel/oneapi/tbb/2021.6.0/env/../include
+ /opt/intel/oneapi/mpi/2021.6.0//include
+ /opt/intel/oneapi/mkl/2022.1.0/include
+ /opt/intel/oneapi/ippcp/2021.6.0/include
+ /opt/intel/oneapi/ipp/2021.6.0/include
+ /opt/intel/oneapi/dpl/2021.7.0/linux/include
+ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include
+ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include
+ /opt/intel/oneapi/dev-utilities/2021.6.0/include
+ /opt/intel/oneapi/dal/2021.6.0/include
+ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/append-file" /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp --append=/tmp/CMakeCXXCompilerABI-footer-9b2043.h --orig-filename=/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp --output=/tmp/CMakeCXXCompilerABI-b92a7a.cpp --use-include
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple x86_64-unknown-linux-gnu -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -include /tmp/CMakeCXXCompilerABI-header-920b64.h -dependency-filter /tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-enable-int-header-diags -fsycl-is-host -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=none -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -iquote /usr/share/cmake-3.22/Modules -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -mllvm -enable-lv -o /tmp/CMakeCXXCompilerABI-d7794b.o -x c++ /tmp/CMakeCXXCompilerABI-b92a7a.cpp
+clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"
+ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"
+ignoring duplicate directory "/usr/local/include"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu"
+ignoring duplicate directory "/usr/include"
+#include "..." search starts here:
+ /usr/share/cmake-3.22/Modules
+#include <...> search starts here:
+ /opt/intel/oneapi/vpl/2022.1.0/include
+ /opt/intel/oneapi/tbb/2021.6.0/env/../include
+ /opt/intel/oneapi/mpi/2021.6.0//include
+ /opt/intel/oneapi/mkl/2022.1.0/include
+ /opt/intel/oneapi/ippcp/2021.6.0/include
+ /opt/intel/oneapi/ipp/2021.6.0/include
+ /opt/intel/oneapi/dpl/2021.7.0/linux/include
+ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include
+ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include
+ /opt/intel/oneapi/dev-utilities/2021.6.0/include
+ /opt/intel/oneapi/dal/2021.6.0/include
+ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include
+ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown,host-x86_64-unknown-linux-gnu -outputs=CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -inputs=/tmp/CMakeCXXCompilerABI-e71608.bc,/tmp/CMakeCXXCompilerABI-d7794b.o
+Linking CXX executable cmTC_0a17c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a17c.dir/link.txt --verbose=1
+/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp  -v CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0a17c 
+Intel(R) oneAPI DPC++/C++ Compiler 2022.1.0 (2022.1.0.20220316)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda-11.2, version 11.2
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=host-x86_64-unknown-linux-gnu,sycl-spir64-unknown-unknown -inputs=CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -outputs=/tmp/CMakeCXXCompilerABI-6caff4.o,/tmp/CMakeCXXCompilerABI-d1c2ad.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-link" /tmp/CMakeCXXCompilerABI-d1c2ad.o -o /tmp/CMakeCXXCompilerABI-a9f14d.bc --suppress-warnings
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-crt.o -outputs=/tmp/libsycl-crt-343ca4.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-complex.o -outputs=/tmp/libsycl-complex-73444c.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-complex-fp64.o -outputs=/tmp/libsycl-complex-fp64-6a81a8.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-cmath.o -outputs=/tmp/libsycl-cmath-5791a3.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-cmath-fp64.o -outputs=/tmp/libsycl-cmath-fp64-f4ce50.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cassert.o -outputs=/tmp/libsycl-fallback-cassert-b94e5e.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cstring.o -outputs=/tmp/libsycl-fallback-cstring-3d1716.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-complex.o -outputs=/tmp/libsycl-fallback-complex-480c9a.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-complex-fp64.o -outputs=/tmp/libsycl-fallback-complex-fp64-4e2dfc.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cmath.o -outputs=/tmp/libsycl-fallback-cmath-0e0cd6.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cmath-fp64.o -outputs=/tmp/libsycl-fallback-cmath-fp64-c8f074.o -unbundle -allow-missing-bundles
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-link" -only-needed /tmp/CMakeCXXCompilerABI-a9f14d.bc /tmp/libsycl-crt-343ca4.o /tmp/libsycl-complex-73444c.o /tmp/libsycl-complex-fp64-6a81a8.o /tmp/libsycl-cmath-5791a3.o /tmp/libsycl-cmath-fp64-f4ce50.o /tmp/libsycl-fallback-cassert-b94e5e.o /tmp/libsycl-fallback-cstring-3d1716.o /tmp/libsycl-fallback-complex-480c9a.o /tmp/libsycl-fallback-complex-fp64-4e2dfc.o /tmp/libsycl-fallback-cmath-0e0cd6.o /tmp/libsycl-fallback-cmath-fp64-c8f074.o -o /tmp/CMakeCXXCompilerABI-ea1013.bc --suppress-warnings
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin/sycl-post-link" -split=auto -emit-param-info -symbols -emit-exported-symbols -split-esimd -lower-esimd -O2 -spec-const=rt -o /tmp/CMakeCXXCompilerABI-65b624.table /tmp/CMakeCXXCompilerABI-ea1013.bc
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/file-table-tform" -extract=Code -drop_titles -o /tmp/CMakeCXXCompilerABI-162341.txt /tmp/CMakeCXXCompilerABI-65b624.table
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-foreach" --in-file-list=/tmp/CMakeCXXCompilerABI-162341.txt --in-replace=/tmp/CMakeCXXCompilerABI-162341.txt --out-ext=spv --out-file-list=/tmp/CMakeCXXCompilerABI-f40f1d.txt --out-replace=/tmp/CMakeCXXCompilerABI-f40f1d.txt -- /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-spirv -o /tmp/CMakeCXXCompilerABI-f40f1d.txt -spirv-max-version=1.3 -spirv-debug-info-version=ocl-100 -spirv-allow-extra-diexpressions -spirv-allow-unknown-intrinsics=llvm.genx. -spirv-ext=-all,+SPV_EXT_shader_atomic_float_add,+SPV_EXT_shader_atomic_float_min_max,+SPV_KHR_no_integer_wrap_decoration,+SPV_KHR_float_controls,+SPV_KHR_expect_assume,+SPV_INTEL_subgroups,+SPV_INTEL_media_block_io,+SPV_INTEL_device_side_avc_motion_estimation,+SPV_INTEL_fpga_loop_controls,+SPV_INTEL_fpga_memory_attributes,+SPV_INTEL_fpga_memory_accesses,+SPV_INTEL_unstructured_loop_controls,+SPV_INTEL_fpga_reg,+SPV_INTEL_blocking_pipes,+SPV_INTEL_function_pointers,+SPV_INTEL_kernel_attributes,+SPV_INTEL_io_pipes,+SPV_INTEL_inline_assembly,+SPV_INTEL_arbitrary_precision_integers,+SPV_INTEL_float_controls2,+SPV_INTEL_vector_compute,+SPV_INTEL_fast_composite,+SPV_INTEL_fpga_buffer_location,+SPV_INTEL_joint_matrix,+SPV_INTEL_arbitrary_precision_fixed_point,+SPV_INTEL_arbitrary_precision_floating_point,+SPV_INTEL_arbitrary_precision_floating_point,+SPV_INTEL_variable_length_array,+SPV_INTEL_fp_fast_math_mode,+SPV_INTEL_fpga_cluster_attributes,+SPV_INTEL_loop_fuse,+SPV_INTEL_long_constant_composite,+SPV_INTEL_fpga_invocation_pipelining_attributes,+SPV_INTEL_fpga_dsp_control,+SPV_INTEL_arithmetic_fence,+SPV_INTEL_runtime_aligned,+SPV_INTEL_task_sequence,+SPV_INTEL_optnone,+SPV_INTEL_token_type,+SPV_INTEL_bfloat16_conversion,+SPV_INTEL_joint_matrix,+SPV_INTEL_hw_thread_queries,+SPV_INTEL_memory_access_aliasing /tmp/CMakeCXXCompilerABI-162341.txt
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/file-table-tform" -replace=Code,Code -o /tmp/CMakeCXXCompilerABI-5d54ec.table /tmp/CMakeCXXCompilerABI-65b624.table /tmp/CMakeCXXCompilerABI-f40f1d.txt
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-wrapper" -o=/tmp/wrapper-d2d89f.bc -host=x86_64-unknown-linux-gnu -target=spir64 -kind=sycl -batch /tmp/CMakeCXXCompilerABI-5d54ec.table
+ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llc" -filetype=obj -o /tmp/cmTC_0a17c-wrapper-9c6ac8.o /tmp/wrapper-d2d89f.bc
+ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0a17c /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib -L/lib -L/usr/lib -L/opt/intel/oneapi/vpl/2022.1.0/lib -L/opt/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8 -L/opt/intel/oneapi/mpi/2021.6.0//libfabric/lib -L/opt/intel/oneapi/mpi/2021.6.0//lib/release -L/opt/intel/oneapi/mpi/2021.6.0//lib -L/opt/intel/oneapi/mkl/2022.1.0/lib/intel64 -L/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64 -L/opt/intel/oneapi/ipp/2021.6.0/lib/intel64 -L/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib -L/opt/intel/oneapi/dal/2021.6.0/lib/intel64 -L/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin -L/opt/intel/oneapi/compiler/2022.1.0/linux/lib -L/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp /tmp/CMakeCXXCompilerABI-6caff4.o /tmp/cmTC_0a17c-wrapper-9c6ac8.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lsycl -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/11/crtend.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/intel/oneapi/vpl/2022.1.0/include]
+    add: [/opt/intel/oneapi/tbb/2021.6.0/env/../include]
+    add: [/opt/intel/oneapi/mpi/2021.6.0//include]
+    add: [/opt/intel/oneapi/mkl/2022.1.0/include]
+    add: [/opt/intel/oneapi/ippcp/2021.6.0/include]
+    add: [/opt/intel/oneapi/ipp/2021.6.0/include]
+    add: [/opt/intel/oneapi/dpl/2021.7.0/linux/include]
+    add: [/opt/intel/oneapi/dpcpp-ct/2022.1.0/include]
+    add: [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include]
+    add: [/opt/intel/oneapi/dev-utilities/2021.6.0/include]
+    add: [/opt/intel/oneapi/dal/2021.6.0/include]
+    add: [/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp]
+    add: [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl]
+    add: [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include]
+    add: [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+    add: [/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/intel/oneapi/vpl/2022.1.0/include] ==> [/opt/intel/oneapi/vpl/2022.1.0/include]
+  collapse include dir [/opt/intel/oneapi/tbb/2021.6.0/env/../include] ==> [/opt/intel/oneapi/tbb/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/mpi/2021.6.0//include] ==> [/opt/intel/oneapi/mpi/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/mkl/2022.1.0/include] ==> [/opt/intel/oneapi/mkl/2022.1.0/include]
+  collapse include dir [/opt/intel/oneapi/ippcp/2021.6.0/include] ==> [/opt/intel/oneapi/ippcp/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/ipp/2021.6.0/include] ==> [/opt/intel/oneapi/ipp/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/dpl/2021.7.0/linux/include] ==> [/opt/intel/oneapi/dpl/2021.7.0/linux/include]
+  collapse include dir [/opt/intel/oneapi/dpcpp-ct/2022.1.0/include] ==> [/opt/intel/oneapi/dpcpp-ct/2022.1.0/include]
+  collapse include dir [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include] ==> [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include]
+  collapse include dir [/opt/intel/oneapi/dev-utilities/2021.6.0/include] ==> [/opt/intel/oneapi/dev-utilities/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/dal/2021.6.0/include] ==> [/opt/intel/oneapi/dal/2021.6.0/include]
+  collapse include dir [/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp] ==> [/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp]
+  collapse include dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/include/sycl]
+  collapse include dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/include]
+  collapse include dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/intel/oneapi/vpl/2022.1.0/include;/opt/intel/oneapi/tbb/2021.6.0/include;/opt/intel/oneapi/mpi/2021.6.0/include;/opt/intel/oneapi/mkl/2022.1.0/include;/opt/intel/oneapi/ippcp/2021.6.0/include;/opt/intel/oneapi/ipp/2021.6.0/include;/opt/intel/oneapi/dpl/2021.7.0/linux/include;/opt/intel/oneapi/dpcpp-ct/2022.1.0/include;/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include;/opt/intel/oneapi/dev-utilities/2021.6.0/include;/opt/intel/oneapi/dal/2021.6.0/include;/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp;/opt/intel/oneapi/compiler/2022.1.0/linux/include/sycl;/opt/intel/oneapi/compiler/2022.1.0/linux/include;/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/include;/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a17c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a17c.dir/build.make CMakeFiles/cmTC_0a17c.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp   -v -MD -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2022.1.0 (2022.1.0.20220316)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.2  version 11.2]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple x86_64-unknown-linux-gnu -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -include /tmp/CMakeCXXCompilerABI-header-920b64.h -dependency-filter /tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-enable-int-header-diags -fsycl-is-host -Eonly -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=none -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -mllvm -enable-lv -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"]
+  ignore line: [ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/intel/oneapi/vpl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/tbb/2021.6.0/env/../include]
+  ignore line: [ /opt/intel/oneapi/mpi/2021.6.0//include]
+  ignore line: [ /opt/intel/oneapi/mkl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/ippcp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ipp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dpl/2021.7.0/linux/include]
+  ignore line: [ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include]
+  ignore line: [ /opt/intel/oneapi/dev-utilities/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dal/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple spir64-unknown-unknown -aux-triple x86_64-unknown-linux-gnu -fsycl-is-device -fdeclare-spirv-builtins -mllvm -sycl-opt -fenable-sycl-dae -Wno-sycl-strict -fsycl-int-header=/tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-int-footer=/tmp/CMakeCXXCompilerABI-footer-9b2043.h -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -Wspir-compat -emit-llvm-bc -emit-llvm-uselists -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=all -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -fno-verbose-asm -mconstructor-aliases -aux-target-cpu x86-64 -debugger-tuning=gdb -v -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -o /tmp/CMakeCXXCompilerABI-e71608.bc -x c++ /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"]
+  ignore line: [ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/intel/oneapi/vpl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/tbb/2021.6.0/env/../include]
+  ignore line: [ /opt/intel/oneapi/mpi/2021.6.0//include]
+  ignore line: [ /opt/intel/oneapi/mkl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/ippcp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ipp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dpl/2021.7.0/linux/include]
+  ignore line: [ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include]
+  ignore line: [ /opt/intel/oneapi/dev-utilities/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dal/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/append-file" /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp --append=/tmp/CMakeCXXCompilerABI-footer-9b2043.h --orig-filename=/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp --output=/tmp/CMakeCXXCompilerABI-b92a7a.cpp --use-include]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang++" -cc1 -triple x86_64-unknown-linux-gnu -sycl-std=2020 -fsycl-unnamed-lambda -fsycl-unique-prefix=88759afd830dcd38 -include /tmp/CMakeCXXCompilerABI-header-920b64.h -dependency-filter /tmp/CMakeCXXCompilerABI-header-920b64.h -fsycl-enable-int-header-diags -fsycl-is-host -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -fveclib=SVML -mframe-pointer=none -menable-no-infs -menable-no-nans -menable-unsafe-fp-math -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -ffast-math -ffinite-math-only -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -resource-dir /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0 -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include -iquote /usr/share/cmake-3.22/Modules -I/opt/intel/oneapi/vpl/2022.1.0/include -I/opt/intel/oneapi/tbb/2021.6.0/env/../include -I/opt/intel/oneapi/mpi/2021.6.0//include -I/opt/intel/oneapi/mkl/2022.1.0/include -I/opt/intel/oneapi/ippcp/2021.6.0/include -I/opt/intel/oneapi/ipp/2021.6.0/include -I/opt/intel/oneapi/dpl/2021.7.0/linux/include -I/opt/intel/oneapi/dpcpp-ct/2022.1.0/include -I/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include -I/opt/intel/oneapi/dev-utilities/2021.6.0/include -I/opt/intel/oneapi/dal/2021.6.0/include -I/opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -internal-isystem /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=c++17 -fdeprecated-macro -fdebug-compilation-dir=/home/n3/oneAPI_sample/array-transform/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -mllvm -disable-hir-generate-mkl-call -mllvm -intel-libirc-allowed -mllvm -loopopt=0 -floopopt-pipeline=none -mllvm -enable-lv -o /tmp/CMakeCXXCompilerABI-d7794b.o -x c++ /tmp/CMakeCXXCompilerABI-b92a7a.cpp]
+  ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"]
+  ignore line: [ignoring duplicate directory "/opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include"]
+  ignore line: [ignoring duplicate directory "/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [ /usr/share/cmake-3.22/Modules]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/intel/oneapi/vpl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/tbb/2021.6.0/env/../include]
+  ignore line: [ /opt/intel/oneapi/mpi/2021.6.0//include]
+  ignore line: [ /opt/intel/oneapi/mkl/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/ippcp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ipp/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dpl/2021.7.0/linux/include]
+  ignore line: [ /opt/intel/oneapi/dpcpp-ct/2022.1.0/include]
+  ignore line: [ /opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/include]
+  ignore line: [ /opt/intel/oneapi/dev-utilities/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/dal/2021.6.0/include]
+  ignore line: [ /opt/intel/oneapi/ccl/2021.6.0/include/cpu_gpu_dpcpp]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include/sycl]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../include]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+  ignore line: [ /opt/intel/oneapi/compiler/2022.1.0/linux/lib/clang/14.0.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown host-x86_64-unknown-linux-gnu -outputs=CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -inputs=/tmp/CMakeCXXCompilerABI-e71608.bc /tmp/CMakeCXXCompilerABI-d7794b.o]
+  ignore line: [Linking CXX executable cmTC_0a17c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a17c.dir/link.txt --verbose=1]
+  ignore line: [/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp  -v CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0a17c ]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2022.1.0 (2022.1.0.20220316)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [Found CUDA installation: /usr/local/cuda-11.2  version 11.2]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=host-x86_64-unknown-linux-gnu sycl-spir64-unknown-unknown -inputs=CMakeFiles/cmTC_0a17c.dir/CMakeCXXCompilerABI.cpp.o -outputs=/tmp/CMakeCXXCompilerABI-6caff4.o /tmp/CMakeCXXCompilerABI-d1c2ad.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-link" /tmp/CMakeCXXCompilerABI-d1c2ad.o -o /tmp/CMakeCXXCompilerABI-a9f14d.bc --suppress-warnings]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-crt.o -outputs=/tmp/libsycl-crt-343ca4.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-complex.o -outputs=/tmp/libsycl-complex-73444c.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-complex-fp64.o -outputs=/tmp/libsycl-complex-fp64-6a81a8.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-cmath.o -outputs=/tmp/libsycl-cmath-5791a3.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-cmath-fp64.o -outputs=/tmp/libsycl-cmath-fp64-f4ce50.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cassert.o -outputs=/tmp/libsycl-fallback-cassert-b94e5e.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cstring.o -outputs=/tmp/libsycl-fallback-cstring-3d1716.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-complex.o -outputs=/tmp/libsycl-fallback-complex-480c9a.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-complex-fp64.o -outputs=/tmp/libsycl-fallback-complex-fp64-4e2dfc.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cmath.o -outputs=/tmp/libsycl-fallback-cmath-0e0cd6.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-bundler" -type=o -targets=sycl-spir64-unknown-unknown -inputs=/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib/libsycl-fallback-cmath-fp64.o -outputs=/tmp/libsycl-fallback-cmath-fp64-c8f074.o -unbundle -allow-missing-bundles]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-link" -only-needed /tmp/CMakeCXXCompilerABI-a9f14d.bc /tmp/libsycl-crt-343ca4.o /tmp/libsycl-complex-73444c.o /tmp/libsycl-complex-fp64-6a81a8.o /tmp/libsycl-cmath-5791a3.o /tmp/libsycl-cmath-fp64-f4ce50.o /tmp/libsycl-fallback-cassert-b94e5e.o /tmp/libsycl-fallback-cstring-3d1716.o /tmp/libsycl-fallback-complex-480c9a.o /tmp/libsycl-fallback-complex-fp64-4e2dfc.o /tmp/libsycl-fallback-cmath-0e0cd6.o /tmp/libsycl-fallback-cmath-fp64-c8f074.o -o /tmp/CMakeCXXCompilerABI-ea1013.bc --suppress-warnings]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin/sycl-post-link" -split=auto -emit-param-info -symbols -emit-exported-symbols -split-esimd -lower-esimd -O2 -spec-const=rt -o /tmp/CMakeCXXCompilerABI-65b624.table /tmp/CMakeCXXCompilerABI-ea1013.bc]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/file-table-tform" -extract=Code -drop_titles -o /tmp/CMakeCXXCompilerABI-162341.txt /tmp/CMakeCXXCompilerABI-65b624.table]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-foreach" --in-file-list=/tmp/CMakeCXXCompilerABI-162341.txt --in-replace=/tmp/CMakeCXXCompilerABI-162341.txt --out-ext=spv --out-file-list=/tmp/CMakeCXXCompilerABI-f40f1d.txt --out-replace=/tmp/CMakeCXXCompilerABI-f40f1d.txt -- /opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llvm-spirv -o /tmp/CMakeCXXCompilerABI-f40f1d.txt -spirv-max-version=1.3 -spirv-debug-info-version=ocl-100 -spirv-allow-extra-diexpressions -spirv-allow-unknown-intrinsics=llvm.genx. -spirv-ext=-all +SPV_EXT_shader_atomic_float_add +SPV_EXT_shader_atomic_float_min_max +SPV_KHR_no_integer_wrap_decoration +SPV_KHR_float_controls +SPV_KHR_expect_assume +SPV_INTEL_subgroups +SPV_INTEL_media_block_io +SPV_INTEL_device_side_avc_motion_estimation +SPV_INTEL_fpga_loop_controls +SPV_INTEL_fpga_memory_attributes +SPV_INTEL_fpga_memory_accesses +SPV_INTEL_unstructured_loop_controls +SPV_INTEL_fpga_reg +SPV_INTEL_blocking_pipes +SPV_INTEL_function_pointers +SPV_INTEL_kernel_attributes +SPV_INTEL_io_pipes +SPV_INTEL_inline_assembly +SPV_INTEL_arbitrary_precision_integers +SPV_INTEL_float_controls2 +SPV_INTEL_vector_compute +SPV_INTEL_fast_composite +SPV_INTEL_fpga_buffer_location +SPV_INTEL_joint_matrix +SPV_INTEL_arbitrary_precision_fixed_point +SPV_INTEL_arbitrary_precision_floating_point +SPV_INTEL_arbitrary_precision_floating_point +SPV_INTEL_variable_length_array +SPV_INTEL_fp_fast_math_mode +SPV_INTEL_fpga_cluster_attributes +SPV_INTEL_loop_fuse +SPV_INTEL_long_constant_composite +SPV_INTEL_fpga_invocation_pipelining_attributes +SPV_INTEL_fpga_dsp_control +SPV_INTEL_arithmetic_fence +SPV_INTEL_runtime_aligned +SPV_INTEL_task_sequence +SPV_INTEL_optnone +SPV_INTEL_token_type +SPV_INTEL_bfloat16_conversion +SPV_INTEL_joint_matrix +SPV_INTEL_hw_thread_queries +SPV_INTEL_memory_access_aliasing /tmp/CMakeCXXCompilerABI-162341.txt]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/file-table-tform" -replace=Code Code -o /tmp/CMakeCXXCompilerABI-5d54ec.table /tmp/CMakeCXXCompilerABI-65b624.table /tmp/CMakeCXXCompilerABI-f40f1d.txt]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/clang-offload-wrapper" -o=/tmp/wrapper-d2d89f.bc -host=x86_64-unknown-linux-gnu -target=spir64 -kind=sycl -batch /tmp/CMakeCXXCompilerABI-5d54ec.table]
+  ignore line: [ "/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/llc" -filetype=obj -o /tmp/cmTC_0a17c-wrapper-9c6ac8.o /tmp/wrapper-d2d89f.bc]
+  link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_0a17c /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib -L/lib -L/usr/lib -L/opt/intel/oneapi/vpl/2022.1.0/lib -L/opt/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8 -L/opt/intel/oneapi/mpi/2021.6.0//libfabric/lib -L/opt/intel/oneapi/mpi/2021.6.0//lib/release -L/opt/intel/oneapi/mpi/2021.6.0//lib -L/opt/intel/oneapi/mkl/2022.1.0/lib/intel64 -L/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64 -L/opt/intel/oneapi/ipp/2021.6.0/lib/intel64 -L/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib -L/opt/intel/oneapi/dal/2021.6.0/lib/intel64 -L/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin -L/opt/intel/oneapi/compiler/2022.1.0/linux/lib -L/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp /tmp/CMakeCXXCompilerABI-6caff4.o /tmp/cmTC_0a17c-wrapper-9c6ac8.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -lstdc++ -Bstatic -limf -Bdynamic -lm -lgcc_s -lgcc -Bstatic -lirc -Bdynamic -ldl -lgcc_s -lgcc -lsycl -lc -lgcc_s -lgcc -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/11/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0a17c] ==> ignore
+    arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-L/opt/intel/oneapi/vpl/2022.1.0/lib] ==> dir [/opt/intel/oneapi/vpl/2022.1.0/lib]
+    arg [-L/opt/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8] ==> dir [/opt/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8]
+    arg [-L/opt/intel/oneapi/mpi/2021.6.0//libfabric/lib] ==> dir [/opt/intel/oneapi/mpi/2021.6.0//libfabric/lib]
+    arg [-L/opt/intel/oneapi/mpi/2021.6.0//lib/release] ==> dir [/opt/intel/oneapi/mpi/2021.6.0//lib/release]
+    arg [-L/opt/intel/oneapi/mpi/2021.6.0//lib] ==> dir [/opt/intel/oneapi/mpi/2021.6.0//lib]
+    arg [-L/opt/intel/oneapi/mkl/2022.1.0/lib/intel64] ==> dir [/opt/intel/oneapi/mkl/2022.1.0/lib/intel64]
+    arg [-L/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64] ==> dir [/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64]
+    arg [-L/opt/intel/oneapi/ipp/2021.6.0/lib/intel64] ==> dir [/opt/intel/oneapi/ipp/2021.6.0/lib/intel64]
+    arg [-L/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib] ==> dir [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib]
+    arg [-L/opt/intel/oneapi/dal/2021.6.0/lib/intel64] ==> dir [/opt/intel/oneapi/dal/2021.6.0/lib/intel64]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+    arg [-L/opt/intel/oneapi/compiler/2022.1.0/linux/lib] ==> dir [/opt/intel/oneapi/compiler/2022.1.0/linux/lib]
+    arg [-L/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp] ==> dir [/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp]
+    arg [/tmp/CMakeCXXCompilerABI-6caff4.o] ==> obj [/tmp/CMakeCXXCompilerABI-6caff4.o]
+    arg [/tmp/cmTC_0a17c-wrapper-9c6ac8.o] ==> obj [/tmp/cmTC_0a17c-wrapper-9c6ac8.o]
+    arg [-Bstatic] ==> search static
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-Bstatic] ==> search static
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-Bstatic] ==> search static
+    arg [-limf] ==> lib [imf]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-Bstatic] ==> search static
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lsycl] ==> lib [sycl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-Bstatic] ==> search static
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> search dynamic
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtend.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtend.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/lib]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../compiler/lib/intel64_lin] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/bin-llvm/../lib] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel/oneapi/vpl/2022.1.0/lib] ==> [/opt/intel/oneapi/vpl/2022.1.0/lib]
+  collapse library dir [/opt/intel/oneapi/tbb/2021.6.0/env/../lib/intel64/gcc4.8] ==> [/opt/intel/oneapi/tbb/2021.6.0/lib/intel64/gcc4.8]
+  collapse library dir [/opt/intel/oneapi/mpi/2021.6.0//libfabric/lib] ==> [/opt/intel/oneapi/mpi/2021.6.0/libfabric/lib]
+  collapse library dir [/opt/intel/oneapi/mpi/2021.6.0//lib/release] ==> [/opt/intel/oneapi/mpi/2021.6.0/lib/release]
+  collapse library dir [/opt/intel/oneapi/mpi/2021.6.0//lib] ==> [/opt/intel/oneapi/mpi/2021.6.0/lib]
+  collapse library dir [/opt/intel/oneapi/mkl/2022.1.0/lib/intel64] ==> [/opt/intel/oneapi/mkl/2022.1.0/lib/intel64]
+  collapse library dir [/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64] ==> [/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64]
+  collapse library dir [/opt/intel/oneapi/ipp/2021.6.0/lib/intel64] ==> [/opt/intel/oneapi/ipp/2021.6.0/lib/intel64]
+  collapse library dir [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib] ==> [/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib]
+  collapse library dir [/opt/intel/oneapi/dal/2021.6.0/lib/intel64] ==> [/opt/intel/oneapi/dal/2021.6.0/lib/intel64]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin]
+  collapse library dir [/opt/intel/oneapi/compiler/2022.1.0/linux/lib] ==> [/opt/intel/oneapi/compiler/2022.1.0/linux/lib]
+  collapse library dir [/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp] ==> [/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp]
+  implicit libs: [svml;irng;stdc++;imf;m;gcc_s;gcc;irc;dl;gcc_s;gcc;sycl;c;gcc_s;gcc;irc_s]
+  implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o;/tmp/CMakeCXXCompilerABI-6caff4.o;/tmp/cmTC_0a17c-wrapper-9c6ac8.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/opt/intel/oneapi/compiler/2022.1.0/linux/compiler/lib/intel64_lin;/opt/intel/oneapi/compiler/2022.1.0/linux/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib;/opt/intel/oneapi/vpl/2022.1.0/lib;/opt/intel/oneapi/tbb/2021.6.0/lib/intel64/gcc4.8;/opt/intel/oneapi/mpi/2021.6.0/libfabric/lib;/opt/intel/oneapi/mpi/2021.6.0/lib/release;/opt/intel/oneapi/mpi/2021.6.0/lib;/opt/intel/oneapi/mkl/2022.1.0/lib/intel64;/opt/intel/oneapi/ippcp/2021.6.0/lib/intel64;/opt/intel/oneapi/ipp/2021.6.0/lib/intel64;/opt/intel/oneapi/dnnl/2022.1.0/cpu_dpcpp_gpu_dpcpp/lib;/opt/intel/oneapi/dal/2021.6.0/lib/intel64;/opt/intel/oneapi/ccl/2021.6.0/lib/cpu_gpu_dpcpp]
+  implicit fwks: []
+
+

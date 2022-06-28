@@ -1,0 +1,1 @@
+/opt/intel/oneapi/compiler/2022.1.0/linux/bin/dpcpp -g -O3 -fsycl -Wno-write-strings -w -D_Linux CMakeFiles/matrix.dpcpp.dir/src/matrix.cpp.o CMakeFiles/matrix.dpcpp.dir/src/multiply.cpp.o -o matrix.dpcpp 
